@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "name": "Chemistry",
+    "imageUrl": "chemistry",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which compound has the highest boiling point?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "butan-1-ol"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "butanal"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "butanonevv"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "butanoic acid"
+          }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 2,
+        "question": "Which is the ground-state electronic configuration of chlorine?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "1s22s22p5"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "1s22s22p63s23p4"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "1s22s22p63s23p5"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "1s22s22p83s23p5"
+          }
+        ],
+        "answer": "d"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Biology",
+    "imageUrl": "biology",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which compound has the highest boiling point?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "butan-1-ol"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "butanal"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "butanonevv"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "butanoic acid"
+          }
+        ],
+        "answer": "d"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mathematics",
+    "imageUrl": "mathematics",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the value of pi (π) to two decimal places?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "3.14"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "3.16"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "3.18"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "3.12"
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 2,
+        "question": "What is the value of the square root of 25?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "4"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "5"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "6"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "7"
+          }
+        ],
+        "answer": "b"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "History",
+    "imageUrl": "history",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who was the first president of the United States?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "George Washington"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "Thomas Jefferson"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "Abraham Lincoln"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "John Adams"
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 2,
+        "question": "In which year did World War II end?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "1945"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "1939"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "1941"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "1943"
+          }
+        ],
+        "answer": "a"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Physics",
+    "imageUrl": "physics",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the SI unit of force?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "Newton (N)"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "Joule (J)"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "Watt (W)"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "Pascal (Pa)"
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a vector quantity?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "Mass"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "Speed"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "Acceleration"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "Temperature"
+          }
+        ],
+        "answer": "c"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Geography",
+    "imageUrl": "geography",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the capital city of Australia?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "Sydney"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "Melbourne"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "Canberra"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "Brisbane"
+          }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": 2,
+        "question": "Which continent is the largest by land area?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "Africa"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "Asia"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "North America"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "Australia"
+          }
+        ],
+        "answer": "b"
+      }
+    ]
+  }
+]
