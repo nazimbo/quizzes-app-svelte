@@ -91,6 +91,33 @@
           }
         ],
         "answer": "d"
+      },
+      {
+        "id": 2,
+        "text": "Which is the ground-state electronic configuration of chlorine?",
+        "options": [
+          {
+            "id": 1,
+            "label": "a",
+            "text": "1s22s22p5"
+          },
+          {
+            "id": 2,
+            "label": "b",
+            "text": "1s22s22p63s23p4"
+          },
+          {
+            "id": 3,
+            "label": "c",
+            "text": "1s22s22p63s23p5"
+          },
+          {
+            "id": 4,
+            "label": "d",
+            "text": "1s22s22p83s23p5"
+          }
+        ],
+        "answer": "d"
       }
     ]
   },
