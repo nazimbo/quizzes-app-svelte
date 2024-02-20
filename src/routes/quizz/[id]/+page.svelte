@@ -8,6 +8,12 @@
 
   let currentQuestionIndex = 0;
   let answersValue: Answer[];
+  let selectedOption: null | string = null;
+
+  const handleClickOption = (label: string) => {
+    selectedOption = label;
+  };
+
   answers.subscribe((value) => (answersValue = value));
 
   $: currentQuestion = data.questions[currentQuestionIndex];
@@ -18,7 +24,7 @@
 
   <div class="flex flex-wrap justify-between">
     {#each currentQuestion.options as option (option.id)}
-      <QuestionOption {option} />
+      <QuestionOption {option} {selectedOption} {handleClickOption} />
     {/each}
   </div>
 
