@@ -3,6 +3,7 @@
   import QuestionOption from "./components/QuestionOption.svelte";
   import QuestionButton from "./components/QuestionButton.svelte";
   import { answers, type Answer } from "../../../store";
+  import { goto } from "$app/navigation";
 
   export let data: any;
 
@@ -30,7 +31,11 @@
   const handleNext = () => {
     showCorrectAnswer = false;
     selectedOption = null;
-    currentQuestionIndex += 1;
+    if (currentQuestionIndex === data.questions.length - 1) {
+      goto(`/quizz/${data.id}/result`);
+    } else {
+      currentQuestionIndex += 1;
+    }
   };
 
   answers.subscribe((value) => (answersValue = value));
