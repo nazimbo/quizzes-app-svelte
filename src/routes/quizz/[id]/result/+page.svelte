@@ -31,5 +31,5 @@
 <div class="text-center">
   <h3>{((correctAnswers / numberOfQuestions) * 100).toFixed(0)}%</h3>
   <p>{correctAnswers}/{numberOfQuestions}</p>
-  <button on:click={handleBack}>Back</button>
+  <button on:click={handleBack} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Back </button>
 </div>
